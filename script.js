@@ -62,6 +62,54 @@ const questions = [
     ],
   },
   {
+    question:
+      "I visited",
+    answers: [
+      { text: "j'ai visité", correct: true },
+      { text: "je voudrais visiter", correct: false },
+    ],
+  },
+  {
+    question: "I would like to visit",
+    answers: [
+      { text: "j'ai visité", correct: false },
+      { text: "je voudrais visiter", correct: true },
+    ],
+  },
+  {
+    question:
+      "I went to",
+    answers: [
+      { text: "je vais aller à", correct: false },
+      { text: "je suis allé à", correct: true },
+    ],
+  },
+  {
+    question: "I will go to (spoken by a male)",
+    answers: [
+      { text: "je suis allé à", correct: false },
+      { text: "je vais aller à", correct: true },
+    ],
+  },
+  {
+    question:
+      "A cake",
+    answers: [
+      { text: "un cadeau", correct: false },
+      { text: "un gateau", correct: true },
+    ],
+  },
+  {
+    question: "A gift",
+    answers: [
+      { text: "un gateau", correct: false },
+      { text: "un cadeau", correct: true },
+    ],
+  },
+
+
+
+  {
     question: "He climbed",
     
     answers: [
