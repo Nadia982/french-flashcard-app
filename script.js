@@ -30,6 +30,21 @@ const questions = [
     { text: "S'entendre bien avec", correct: false },
   ],
 },
+{
+  question:
+    "It was",
+  answers: [
+    { text: "C'était", correct: true },
+    { text: "C'est", correct: false },
+  ],
+},
+{
+  question: "It is",
+  answers: [
+    { text: "C'était", correct: false },
+    { text: "C'est", correct: true },
+  ],
+},
 
   {
     question:
