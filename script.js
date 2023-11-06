@@ -15,6 +15,21 @@ const questions = [
     { text: "trop", correct: false },
   ],
 },
+{
+  question:
+    "To get on well with",
+  answers: [
+    { text: "s'entendre bien avec", correct: true },
+    { text: "attendre", correct: false },
+  ],
+},
+{
+  question: "I get on well with",
+  answers: [
+    { text: "Je m'entends bien avec", correct: true },
+    { text: "S'entendre bien avec", correct: false },
+  ],
+},
 
   {
     question:
