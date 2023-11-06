@@ -97,21 +97,87 @@ const questions = [
       { text: "écrit par", correct: true },
     ],
   },
+  {
+    question: "also",
+    
+    answers: [
+      { text: "aussi", correct: true },
+      { text: "assez", correct: false },
+    ],
+  },
+  {
+    question: "quite",
+    
+    answers: [
+      { text: "assez", correct: true },
+      { text: "aussi", correct: false },
+    ],
+  },
+  {
+    question: "it/he/she was",
+    
+    answers: [
+      { text: "être", correct: false },
+      { text: "il était", correct: true },
+    ],
+  },
+  {
+    question: "to be",
+    
+    answers: [
+      { text: "être", correct: true },
+      { text: "il était", correct: false },
+    ],
+  },
+  {
+    question: "he waited",
+    
+    answers: [
+      { text: "il a assisté à", correct: false },
+      { text: "il a attendu", correct: true },
+    ],
+  },
+  {
+    question: "he attended",
+    
+    answers: [
+      { text: "il a assisté à", correct: true },
+      { text: "il a attendu", correct: false },
+    ],
+  },
+  {
+    question: "one in the morning",
+    
+    answers: [
+      { text: "une heure de l'après-midi", correct: false },
+      { text: "une heure du matin", correct: true },
+    ],
+  },
+  {
+    question: "one in the afternoon",
+    
+    answers: [
+      { text: "une heure du matin", correct: false },
+      { text: "une heure de l'après-midi", correct: true },
+    ],
+  },
+  {
+    question: "he promised",
+    
+    answers: [
+      { text: "il a promis", correct: true },
+      { text: "la promesse", correct: false },
+    ],
+  },
+  {
+    question: "the promise",
+    
+    answers: [
+      { text: "la promesse", correct: true },
+      { text: "il a promis", correct: false },
+    ],
+  },
 
-
-
-// also - aussi
-// quite - assez
-
-// it/he/she was - il était 
-// to be - etre
-
-
-// he waited - il a attendu
-// he attended - il a assisté à
-
-// one in the morning - une heure du matin 
-// one in the afternoon - une heure de l'après-midi 
 
 // he promised - il a promis 
 // the promise - la promesse 
@@ -166,7 +232,6 @@ const questions = [
 
 // tous - all 
 // surtout - most of all
-
 
 
   {
