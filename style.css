@@ -27,7 +27,7 @@ body {
     border-radius: 10px;
     padding: 30px;
     height: 90vh;
-    gap: 3em;
+    gap: 1em;
   }
 
   .title-container {
@@ -36,6 +36,8 @@ body {
     justify-content: space-evenly;
   }
   
+/* Flag styling */
+
   .flag {
     position: relative;
     display: flex;
@@ -75,6 +77,10 @@ body {
     display: flex;
     gap: 2em;
     flex-direction: column;
+}
+
+.question-no-heading {
+    margin-top: 2em;
 }
 
 .quiz h2 {
@@ -132,7 +138,7 @@ body {
     width: 150px;
     border: 0;
     padding: 10px;
-    margin: 20px auto 0;
+    margin: 0 auto;
     border-radius: 0.5em;
     cursor: pointer;
     border: 1px solid var(--primary-dark);

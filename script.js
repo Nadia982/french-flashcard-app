@@ -328,15 +328,18 @@ const questions = [
 
 ];
 
+const questionNoElement = document.getElementById("question-no");
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const questionNoHeading = document.querySelector(".question-no-heading");
 
 let currentQuestionIndex = 0;
 let score = 0;
 
 const startQuiz = () => {
-  currentQuestionIndex = 0;
+  // h2.innerHTML = `This quiz will test you on 15 random words from a total list of ${questions.length} words`;
+    currentQuestionIndex = 0;
   score = 0;
   nextButton.innerHTML = "Next";
   showQuestion();
@@ -346,7 +349,9 @@ const showQuestion = () => {
   resetState();
   let currentQuestion = questions[currentQuestionIndex];
   let questionNo = currentQuestionIndex + 1;
-  questionElement.innerHTML = `${questionNo}. ${currentQuestion.question}`;
+  questionNoHeading.innerHTML = `Question ${questionNo} of ${questions.length}`;
+  // questionNoElement.innerHTML = ; 
+  questionElement.innerHTML = currentQuestion.question;
 
   currentQuestion.answers.forEach((answer) => {
     const button = document.createElement("button");
